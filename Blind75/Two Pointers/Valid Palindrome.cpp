@@ -15,8 +15,8 @@ bool isPalindrome(string s) {
             [](unsigned char c){ return std::tolower(c); });
 
     // 2. Search starting from both ends
-    size_t start = 0;
-    size_t end = s.size()-1;
+    int start = 0;
+    int end = s.size()-1;
     while (start <= end) {
         if (s[start] == s[end]) {
             start++;
