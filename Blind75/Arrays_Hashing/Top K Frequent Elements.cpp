@@ -34,6 +34,12 @@ public:
     }
 };
 
+heapq.nlargest 연산은
+list = []
+for i in range(k):
+    list.append(heapq.pop(hq))
+
+
 int main() {
     Solution sol;
     vector<int> nums = {1,2,2,3,3,3};
